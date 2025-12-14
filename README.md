@@ -72,7 +72,7 @@ npm run preview
 ## Demo
 
 Frontend: https://wizniche-demo.mirrorlog.com
-Backend API: https://api-wizniche-demo.mirrorlog.com/api/v1
+Backend API: https://api-wizniche-demo.mirrorlog.com
 
 ---
 
