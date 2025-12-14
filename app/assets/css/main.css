@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Base styles
+ * Sets defaults for the entire application
+ */
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+/**
+ * Component styles
+ * Reusable component classes matching WIZniche design system
+ */
+@layer components {
+  /**
+   * Card component - matches WIZniche's card style exactly
+   * - White background
+   * - Subtle shadow
+   * - Thin gray border
+   * - Rounded corners
+   * - Generous padding
+   */
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6;
+  }
+
+  /**
+   * Primary button - WIZniche green
+   */
+  .btn-primary {
+    @apply bg-primary hover:bg-primary/90 text-white font-medium
+           py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  /**
+   * Secondary button - outlined style
+   */
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-gray-700 font-medium
+           py-2 px-4 rounded-lg border border-gray-300
+           transition-colors duration-200;
+  }
+}
